@@ -1,10 +1,10 @@
-#DATA migration from on premise MS-SQL server to RDS sql server
+# DATA migration from on premise MS-SQL server to RDS sql server
 
-##Intriductionn 
+## Intriductionn 
 
   * This documentation outlines the steps for migrating a database from an on-premises MS SQL Server to an RDS SQL Server instance.
 
-##pre-requisites
+## pre-requisites
 
   * Access to the on-premises MS SQL Server instance.
  
@@ -12,7 +12,7 @@
  
   * SQL Server Management Studio (SSMS) installed on your local machine.
 
-#launching an RDS Instance
+# launching an RDS Instance
 
   * Go to the AWS Management Console and select the RDS service.
 
@@ -30,7 +30,7 @@
 
   * Review your settings and click on the "Launch DB instance" button.
 
-#Connecting to the RDS Instance
+# Connecting to the RDS Instance
 
   * Go to the RDS dashboard and select the instance you just created.
   
@@ -38,13 +38,13 @@
   
   * Connect to the RDS instance using a SQL client or other database tools.
 
-#connecting windows MS-SQL server via an EC2 instance RDP client
+# connecting windows MS-SQL server via an EC2 instance RDP client
 
   * select the sql server EC2 instance and connect to instance
  
   * select RDP client and login with ms-sql server credentials
 
-#authenticating windows sql server database and RDS database 
+# authenticating windows sql server database and RDS database 
   
  windows DB:
 
@@ -54,7 +54,7 @@
   
   * give server name as RDS endpoint, authenticate with SQL Server Authenticate credentials, create new DB.
 
-#exporting data from ON-premise to REMOTE
+# exporting data from ON-premise to REMOTE
 
  # Data Source
 
@@ -74,7 +74,7 @@
   
   * if there are any error you can see the error msg 
 
-##Conclusion
+## Conclusion
 
   This documentation outlines the high-level steps for migrating a database from an on-premises MS SQL Server to an RDS SQL Server instance. The exact steps may vary depending on your specific setup and requirements. However, following these steps should help you successfully migrate your database to an RDS SQL Server instance.
 
