@@ -1,10 +1,10 @@
-#DATA migration from on premise MS-SQL server to RDS sql server
+# DATA migration from on premise MS-SQL server to RDS sql server
 
-##Intriductionn 
+## Intriductionn 
 
   * This documentation outlines the steps for migrating a database from an on-premises MS SQL Server to an RDS SQL Server instance.
 
-##pre-requisites
+## pre-requisites
 
   * Access to the on-premises MS SQL Server instance.
  
@@ -12,7 +12,7 @@
  
   * SQL Server Management Studio (SSMS) installed on your local machine.
 
-#launching an RDS Instance
+# launching an RDS Instance
 
   * Go to the AWS Management Console and select the RDS service.
 
